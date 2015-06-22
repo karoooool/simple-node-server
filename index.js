@@ -4,7 +4,8 @@
 // CALL THE PACKAGES --------------------
 var express    = require('express');		// call express
 var app        = express(); 				// define our app using express
-var port = 8080
+var port = process.env.PORT || 8080
+var ip = process.env.IP || "1270.01"
 
 // configure our app to handle CORS requests
 app.use(function(req, res, next) {
