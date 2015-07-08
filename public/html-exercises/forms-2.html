@@ -4,8 +4,9 @@
   <title> forms-2 </title>
 </head>
 <body>
+<form>
 <h2> Order Form </h2>
-<hr>
+<fieldset>
 <h3> Customer Details </h3>
 <p>
 <label> Customer name: <input type="text" name="customer name"></label>
@@ -16,7 +17,8 @@
 <p>
 <label> E-mail address: <input type="text" name="e-mail address"></label>
 </p>
-<hr>
+</fieldset>
+<fieldset>
 <h3> Pizza Options </h3>
 <p>
 <label>
@@ -47,7 +49,8 @@ Extra Toppings:
 <label><input type="checkbox" name="toppings" value="onion"> Onion </label>
 <label><input type="checkbox" name="toppings" value="mushroom"> Mushroom </label>
 </p>
-<hr>
+</fieldset>
+<fieldset>
 <h3> Delivery Details </h3>
 <p>
 <label> Delivery date: <input type="date" name="delivery date"></label>
@@ -58,10 +61,12 @@ Extra Toppings:
 <p>
 <label> Delivery address: <br><textarea rows="10" cols="40">Type something here..</textarea></label>
 </p>
+</fieldset>
 <br>
+
 <button type="reset"> Reset</button>
 <button type="submit"> Submit</button>
-
+</form>
 </body>
 
 </html>
