@@ -1,0 +1,14 @@
+h1 {
+    font-family: Century Gothic;
+    font-weight: normal;
+    font-variant: small-caps;
+    text-align: center;
+   }
+
+p  {
+   font-family: Century Gothic;
+   font-weight: normal;
+   margin-left: 100px;
+   margin-right: 100px;
+   text-align: justify;
+}
