@@ -1,0 +1,45 @@
+body {
+background-color: yellow;
+}
+
+h1 {
+color: #FF0000;
+margin-left: 40px;
+}
+fieldset {
+background-color: gray; 
+padding: 3px; 
+margin: 3px; 
+width: 100px;
+margin: 0px auto; 
+}
+input {
+font-family: "Courier Sans"; 
+font-size: 20px; 
+}
+#text {
+font-weight: bold; 
+font-family: "Times New Roman", Georgia, Serif;
+color: #ff69b4; 
+text-decoration: underline; 
+text-align: justify; 
+}
+#colors {
+list-style-type: square; 
+}
+#green-colors {
+list-style-type: upper-roman; 
+}
+img {
+width: 80px;
+height: 60px;
+padding: 3px; 
+margin: 3px; 
+}
+.text {
+font-style: italic; 
+text-indent: 50px; 
+text-transform: uppercase; 
+border: 5px solid black; 
+vertical-align: middle; 
+}
