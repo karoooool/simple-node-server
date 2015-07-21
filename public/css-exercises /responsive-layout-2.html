@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="Karol Ramirez">
+<meta name="description" content="Responsive Layout">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+body {
+font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="column-"] {
+float: left;
+padding: 15px;
+}
+.header {
+background-color: #8d3441;
+color: #ffffff;
+text-align: center;
+}
+.vertical ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.vertical li {
+padding: 8px;
+margin-bottom: 7px;
+background-color :#f06060;
+color: #ffffff;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.vertical li:hover {
+background-color: #f2dde1;
+color: #000000;
+}
+.horizontal ul {
+background-color :#f06060;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.horizontal li {
+padding: 8px;
+background-color :#f06060;
+color: #ffffff;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+float: left;
+width: 25%;
+text-align: center;
+}
+.horizontal li:hover {
+background-color: #f2dde1;
+color: #000000;
+}
+.footer {
+background-color: #8d3441;
+color: #ffffff;
+text-align: center;
+font-size: 12px;
+padding: 15px;
+}
+
+
+[class*="column-"] {
+width: 100%;
+}
+.horizontal li {font-size:0.7em;}
+@media (min-width: 600px) {
+
+.horizontal li {font-size:1em;}
+.column-m-12 {width: 8.33%;}
+.column-m-2 {width: 16.66%;}
+.column-m-3 {width: 25%;}
+.column-m-4 {width: 33.33%;}
+.column-m-5 {width: 41.66%;}
+.column-m-6 {width: 50%;}
+.column-m-7 {width: 58.33%;}
+.column-m-8 {width: 66.66%;}
+.column-m-9 {width: 75%;}
+.column-m-10 {width: 83.33%;}
+.column-m-11 {width: 91.66%;}
+.column-m-12 {width: 100%;}
+}
+@media (min-width: 768px) {
+
+.horizontal li {font-size:1em;}
+.column-1 {width: 8.33%;}
+.column-2 {width: 16.66%;}
+.column-3 {width: 25%;}
+.column-4 {width: 33.33%;}
+.column-5 {width: 41.66%;}
+.column-6 {width: 50%;}
+.column-7 {width: 58.33%;}
+.column-8 {width: 66.66%;}
+.column-9 {width: 75%;}
+.column-10 {width: 83.33%;}
+.column-11 {width: 91.66%;}
+.column-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+<div class="row">
+<div class="column horizontal">
+<ul>
+<li>Home</li>
+<li>Products</li>
+<li>Company</li>
+<li>Contact</li>
+</ul>
+</div>
+</div>
+
+<div class="row header">
+<div class="column">
+<h1>Company Name</h1>
+</div>
+</div>
+
+<div class="row">
+<div class="column vertical">
+<ul>
+<li>Button 1</li>
+<li>Button 2</li>
+<li>Button 3</li>
+<li>Button 4</li>
+<li>Button 5</li>
+<li>Button 6</li>
+<li>Button 7</li>
+<li>Button 8</li>
+</ul>
+</div>
+
+<div class="column">
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e	iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="column">
+<h1>News</h1>
+<p><strong>06.27.15 - News Header</strong> <br/> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+<p><strong>06.28.15 - News Header</strong> <br/> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+<p><strong>06.29.15 - News Header</strong> <br/> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+<p><strong>06.30.15 - News Header</strong> <br/> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+<p><strong>07.01.15 - News Header</strong> <br/> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+</div>
+</div>
+
+<div class="row footer">
+<div class="column">
+<h3>&#169; 2015. All rights reserved.</h3>
+</div>
+</div>
+
+</body>
+</html>
