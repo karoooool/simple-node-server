@@ -1,0 +1,8 @@
+<p><t>It is now 30 years since the transition, completed on January 1 1983,  from the use of disparate packet-switched networks to the unified computer communication protocol TCP/IP pioneered by Vinton Cerf and Robert Kahn.
+</p>
+<p>
+The great achievement of the modern internet it is that it enables data to be freely exchanged among all the networks that make up the world wide web. It does this with a combination of two communications protocols - TCP/IP (Transport Communications Protocol over Internet Protocol).
+</p>
+<p>
+The TCP protocol was first described in a paper by Cerf and Kahn published in 1974 in the IEEE Transactions on Communications. After being tested by DARPA, TCP/IP was accepted as its new standard in 1981 and in November 1981 Jon Postel published a transition plan whereby the 400 APRPANET hosts were to be migrated from the older NCP protocol to TCP/IP. This had a deadline of January 1, 1983, after which point all hosts not switched would be cut off.
+</p><br>See more in <a href="http://www.i-programmer.info/news/82-heritage/5272-30-years-of-modern-internet.html">I-Programmer</a>

@@ -1,0 +1,11 @@
+<p>
+Internet search engines are special sites on the Web that are designed to help people find information stored on other sites. There are differences in the ways various search engines work, but they all perform three basic tasks:
+<br>
+<blockquote>They search the Internet -- or select pieces of the Internet -- based on important words.</blockquote>
+<blockquote>They keep an index of the words they find, and where they find them.</blockquote>
+<blockquote>They allow users to look for words or combinations of words found in that index.</blockquote>
+<br>
+Early search engines held an index of a few hundred thousand pages and documents, and received maybe one or two thousand inquiries each day. Today, a top search engine will index hundreds of millions of pages, and respond to tens of millions of queries per day. In this article, we'll tell you how these major tasks are performed, and how Internet search engines put the pieces together in order to let you find the information you need on the Web.
+</p>
+<br>
+Se more in <a href="http://computer.howstuffworks.com/internet/basics/search-engine.htm">Howstuffworks</a>

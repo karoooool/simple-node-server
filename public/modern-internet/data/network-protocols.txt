@@ -1,0 +1,12 @@
+<p>Network Protocol include guidelines that regulate the following characteristics of a network: access method, allowed physical topologies, types of cabling, and speed of data transfer.
+</p>
+<p>
+The most common network protocols are:<br>
+<blockquote>Ethernet</blockquote>
+<blockquote>Local Talk</blockquote>
+<blockquote>Token Ring</blockquote>
+<blockquote>FDDI</blockquote>
+<blockquote>ATM</blockquote>
+The followings are some commonly used network symbols to draw different kinds of network protocols.
+</><br><br>
+See more in <a href="https://www.edrawsoft.com/Network-Protocol.php">Edrawsoft</a>

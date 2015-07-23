@@ -1,0 +1,6 @@
+<p>
+Microblogging services&#45;which let subscribers post short personal updates online or broadcast them as text messages&#45;have inspired a slew of ancillary services. 
+Clients are desktop or mobile-device applications that access microblogs&#39; content. Toys are sites that present the content in new ways, often combined with other data. Accessories meet needs specific to micro&#45;bloggers&#45;such as a way to shorten URLs so that they fit inside status updates. The time line of service launch dates provides a snapshot of the whole eco&#45;system.
+</p>
+<br>
+See more in <a href="http://www.technologyreview.com/article/410648/a-brief-history-of-microblogging/">Technologyreview</a>

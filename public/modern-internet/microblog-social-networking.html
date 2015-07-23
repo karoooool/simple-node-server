@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modern Internet</title>
+<link href="css/myst.css" rel="stylesheet" type="text/css" />
+<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css" />
+<link href="materialize/css/materialize.min.css" rel="stylesheet" type="text/css" />
+<script src="materialize/js/materialize.css" type="text/javascript"></script>
+<script src="materialize/js/materialize.min.css" type="text/javascript"></script>
+</head>
+<body>
+<div class="whole">
+<div class="header">
+<div class="banner1"></div>
+<div class="banner2"></div>
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header" align="center">
+      <a class="navbar-brand" href="index.html" >Modern Internet</a>
+    </div>
+    <div align="center">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Modern Internet</a></li>
+        <li><a href="network-protocols.html">Network Protocols</a></li>
+        <li><a href="email.html">Email</a></li> 
+        <li><a href="search-engines.html">Search Engines</a></li> 
+        <li><a href="blogging.html">Blogging</a></li> 
+        <li><a href="video-streaming.html">Video Streaming</a></li> 
+        <li class="active"><a href="microblog-social-networking.html">Microblog Social Networking</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="line"></div>
+<br><br><br>
+<div class="line-2"></div>
+<br>
+<div class="content">
+<div id="text"></div>
+	<script>
+	var xhr;
+	if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		
+	else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		
+	
+	xhr.open('GET', 'data/microblog-social-networking.txt', false);
+	xhr.onreadystatechange = function () {
+		if (xhr.readyState===4 && xhr.status===200) {
+			var div = document.getElementById('text');
+			div.innerHTML = xhr.responseText;
+		}
+	}
+	xhr.send();
+	</script>
+</div>
+<br><br>
+<div class="footer">
+	<a href="index.html">Modern Internet</a> | 
+    <a href="network-protocols.html">Network Protocols</a> | 
+    <a href="email.html">Email</a> | 
+    <a href="search-engines.html">Search Engines</a> | 
+    <a href="blogging.html">Blogging</a> | 
+    <a href="video-streaming.html">Video Streaming</a> | 
+    <a href="microblog-social-networking.html">Microblog Social Networking</a>
+</div>
+</div>
+</body>
+</html>

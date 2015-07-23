@@ -1,0 +1,19 @@
+<p>
+Email, or electronic mail, is the most common method of exchanging digital messages and remains one of the most popular services currently available via the Internet, with over 90% of US Internet users actively using email. Here you'll find an overview of the modern email system and infrastructure, as well as its origin and use.
+</p>
+<p>
+<br><b>The Email System</b><br><br>
+Email systems consist of computer servers that process and store messages on behalf of users who connect to the email infrastructure via an email client or web interface.
+<br>
+When someone sends an email, the message is transferred from his or her computer to the server associated with the recipient's address, usually via a number of other servers.
+</p>
+1. A user (Alice) sends an email message and connects to an SMTP (Simple Mail Transfer Protocol) server as configured in her email client or Mail User Agent (MUA).
+<br>
+2. On the SMTP server, a Mail Transfer Agent (MTA) looks at the recipient address and looks up the domain part of the address to determine its destination.
+<br>
+3. After querying a Domain Name System (DNS) server for the name of the Mail eXchanger (MX) for the recipient&#39;s domain name...
+<br>
+4. ...the SMTP server will send the message to that server via the SMTPprotocol.
+The receiving server will store the message and make it available to the recipient (Bob), who can access it via web, POP, or IMAP.
+<br><br>
+See more in <a href="https://runbox.com/email-school/how-email-works/">Runbox</a>
