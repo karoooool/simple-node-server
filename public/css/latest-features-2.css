@@ -1,0 +1,167 @@
+@font-face {
+	font-family: "Comfortaa";
+	src: url("http://fonts.googleapis.com/css?family=Comfortaa");
+}
+body {
+	font-family: Comfortaa;
+	margin: auto;
+}
+
+.rect
+{
+	top: 200px;
+	right: -5px;
+	position: fixed;
+	border: 2px;
+	border-color: #84befe;
+	border-style: dashed;
+	width: 30px;
+	height: 60px;
+	padding: 25px 15px 50px;
+	text-align: center;
+	color: #84befe;
+	font-size: 19px;
+	border-radius: 10px;
+	
+}
+.rect a
+{
+	text-decoration: none;
+	color: #84befe;
+}
+
+.whole
+{
+	background: gradient-fading (to top, #84befe, white);
+	margin: auto;
+	width: 980px;
+	height: 1270px;
+}
+
+.header
+{
+	margin: auto;
+	width: 900px;
+	height: 450px;
+}
+
+.box
+{
+	background-color: #ffffff;
+	margin-right: 40px;
+	margin-top: 80px;
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 5px 5px 10px gray;
+	
+}
+
+.preview
+{
+	background-color: #84befe;
+	width: 730px;
+	height: 400px;
+	float: right;
+	margin-top: 40px;
+	font-size: 90px;
+	text-shadow: 5px 5px 10px gray;
+	
+}
+
+.container
+{
+	width: 900px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.nav
+{
+	text-align: center;
+	padding: 15px;
+}
+
+.nav a
+{
+	background-color: #84befe;
+	text-decoration:none;
+	color: white;
+	padding: 10px 59px 10px;
+	border-radius: 0px 15px 0px 0px;
+}
+
+.nav a:hover
+{
+	background-color: #ffffff;
+	color: #84befe;
+}
+
+.mid
+{
+	margin-top: 450px;
+	background-color: #cbe5ff;
+	width: 900px;
+	height: 10px;
+}
+
+.last
+{
+	margin: auto;
+	height: 220px;
+	background-color: #ffffff;
+	margin: auto;
+	padding: 10px;
+}
+
+.left
+{
+	margin: auto;
+	height: 200px;
+	width: 415px;
+	border: 1px;
+	border-color: #84befe;
+	border-style: dashed;
+	float: left;
+	padding: 10px;
+}
+
+.left-head
+{
+	margin: auto;
+	height: 50px;
+	background: gradient-fading(towards the top, #84befe, lightblue;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+.right
+{
+	margin: auto;
+	height: 200px;
+	width: 415px;
+	border: 1px;
+	border-color: #84befe;
+	border-style: dashed;
+	float: right;
+	padding: 10px;
+}
+
+.right-head
+{
+	margin: auto;
+	height: 50px;
+	background: gradient-fading(towards the top, #84befe, lightblue;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+.footer
+{
+	color: white;
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
